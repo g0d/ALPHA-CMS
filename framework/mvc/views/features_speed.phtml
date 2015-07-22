@@ -1,0 +1,35 @@
+<?php
+
+    /*
+    
+        localhost Ltd - ALPHA CMS
+        
+        File name: features_speed.phtml
+        Description: This file contains the features speed view.
+    
+    */
+
+?>
+
+
+
+    <div id="main_content">
+        <?php echo ALPHA_CMS::Load_Content('speed', 'content', ALPHA_CMS::Get_Language()); ?>
+    </div>
+
+    <div id="sidebar">
+        <?php
+        
+            $parent_menu = MVC_Menu::Get_Parent_Menu();
+            
+            $mvc_menu = MVC_Menu::Show($parent_menu, 0, ALPHA_CMS::Get_Language());
+            
+            echo '<h3>' . ALPHA_CMS::Load_Content('features', 'content', ALPHA_CMS::Get_Language()) . '</h3>';
+            echo $mvc_menu;
+        
+        ?>
+    </div>
+
+
+
+<?php /* ---------- End ---------- */ ?>

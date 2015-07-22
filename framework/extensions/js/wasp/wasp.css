@@ -1,0 +1,279 @@
+/*
+
+    localhost Ltd - ALPHA CMS
+    
+    Version: 4.9
+    
+    File name: wasp.css
+    Description: This file contains the default WASP theme CSS.
+    
+    Coded by George Delaportas (G0D)
+    
+    localhost Ltd
+    Copyright (c) 2014
+
+*/
+
+
+
+.widgets
+{
+
+    font-size: 12px;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #808080;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    min-width: 260px;
+    min-height: 200px;
+    overflow: hidden;
+    display: none;
+
+}
+
+.ctrl_bar
+{
+
+    background-color: #555555;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    border-color: #E5E5E5;
+    height: 20px;
+    padding: 2px;
+    z-index: 1;
+
+}
+
+.ctrl_bar:hover
+{
+
+    background-color: #696969;
+
+}
+
+.title
+{
+
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    width: 194px;
+    height: 12px;
+    min-width: 194px;
+    margin-left: 2px;
+    padding: 2px;
+    overflow: hidden;
+
+}
+
+.contents
+{
+
+    clear: both;
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    height: 100%;
+    min-height: 200px;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+.data
+{
+
+    color: #000000;
+    width: 100%;
+    height: 140px;
+    min-height: 140px;
+    overflow: auto;
+    z-index: 1;
+
+}
+
+.minimizer
+{
+
+    float: left;
+    clear: left;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9E0052;
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+
+.minimizer:hover
+{
+
+    color: #000000;
+    background-color: #F5F5F5;
+
+}
+
+.close
+{
+
+    float: right;
+    clear: right;
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F00000;
+    width: 20px;
+    height: 16px;
+    cursor: pointer;
+
+}
+
+.close:hover
+{
+
+    color: #000000;
+    background-color: #C390E0;
+
+}
+
+.resize
+{
+
+    float: right;
+    color: #000000;
+    background-color: #EAFF00;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    border-color: #000000;
+    bottom: 0px;
+    font-weight: bold;
+    text-align: right;
+    padding: 2px;
+    z-index: 1;
+
+}
+
+.restorer
+{
+
+    background-color: #695FFF;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFFC38;
+    width: 10px;
+    height: 17px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+.restorer:hover
+{
+
+    color: #FFFFFF;
+    background-color: #050505;
+
+}
+
+.status_bar
+{
+
+    color: lightgray;
+    background-color: #757575;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    border-color: #E5E5E5;
+    height: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -60px;
+    padding: 2px;
+    z-index: 1;
+
+}
+
+.status_msg
+{
+
+    float: left;
+    color: #CCCCCC;
+    font-weight: bold;
+    text-align: left;
+    width: 218px;
+    height: 12px;
+    min-width: 218px;
+    margin-top: 2px;
+    padding: 2px;
+    overflow: hidden;
+
+}
+
+.bricks
+{
+
+    background-color: #3D595D;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-width: 100px;
+    min-height: 30px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.bricks:hover
+{
+
+    background-color: #0A62A6;
+
+}
+
+.name_tag
+{
+
+    float: right;
+    clear: left;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #97AA99;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 3px;
+    width: 65px;
+    height: 13px;
+    padding: 2px;
+    overflow: hidden;
+    display: none;
+
+}
+
+
+
+/* ---------- End ---------- */

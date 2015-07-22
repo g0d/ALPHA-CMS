@@ -1,0 +1,35 @@
+<?php
+
+    /*
+    
+        localhost Ltd - ALPHA CMS
+        
+        File name: about_company.phtml
+        Description: This file contains the about company view.
+    
+    */
+
+?>
+
+
+
+    <div id="main_content">
+        <?php echo ALPHA_CMS::Load_Content('company', 'content', ALPHA_CMS::Get_Language()); ?>
+    </div>
+
+    <div id="sidebar">
+        <?php
+        
+            $parent_menu = MVC_Menu::Get_Parent_Menu();
+            
+            $mvc_menu = MVC_Menu::Show($parent_menu, 0, ALPHA_CMS::Get_Language());
+            
+            echo '<h3>' . ALPHA_CMS::Load_Content('about', 'content', ALPHA_CMS::Get_Language()) . '</h3>';
+            echo $mvc_menu;
+        
+        ?>
+    </div>
+
+
+
+<?php /* ---------- End ---------- */ ?>

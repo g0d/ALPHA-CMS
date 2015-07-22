@@ -1,0 +1,12 @@
+localhost Ltd - ALPHA CMS 11.0 [ALPHA Framework 11.0]
+-----------------------------------------------------
+
+In order to install ALPHA CMS (Framework) just
+put it in the root ("/") directory of your
+web server. Then follow the steps on the wizard.
+
+Please note that ALPHA CMS (Framework) must
+be installed in the root directory or in a
+virtual root directory otherwise it will not work.
+
+-----------------------------------------------------

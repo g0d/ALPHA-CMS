@@ -1,0 +1,33 @@
+localhost Ltd - ALPHA CMS 11.0 [ALPHA Framework 11.0]
+-----------------------------------------------------
+
+The root directory ("/") contains:
+1. The ALPHA CMS ("cms")
+2. The ALPHA Framework ("framework")
+3. The Documentation ("doc")
+4. The temporary files ("tmp")
+5. Install.txt
+6. Read Me.txt
+7. The htaccess configuration file
+
+It also contains the index.php
+file that bootstraps the ALPHA CMS.
+
+
+
+The default installation of ALPHA CMS 
+adds 4 users in the database.
+
+The users are:
+1. admin (the God of ALPHA CMS)
+2. editor (a user that has editing privileges)
+3. auditor (a user that has only view privileges)
+4. demoadmin (a super user with some restrictions)
+
+Credentials:
+admin / "to be set in the installation" (default: 12345678)
+editor / 12345678
+auditor / 12345678
+demoadmin / demoadmin
+
+---------------------------------------------------

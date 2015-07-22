@@ -1,0 +1,225 @@
+/*
+
+    localhost Ltd - ALPHA CMS default theme
+    
+    Version: 11.0
+    
+    File name: setup.css
+    Description: This file contains the setup theme CSS.
+    
+    Coded by George Delaportas (G0D)
+    
+    localhost Ltd
+    Copyright (c) 2014
+
+*/
+
+
+
+/* Body */
+body
+{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #D0E0A7;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Anchor */
+a
+{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: #667058;
+
+}
+
+/* Anchor [Hover] */
+a:hover
+{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+/* Form */
+form
+{
+
+    margin: 0;
+    padding: 5px 10px;
+
+}
+
+#localhost_logo
+{
+
+    float: left;
+    clear: both;
+
+}
+
+#slogan
+{
+
+    clear: both;
+    float: left;
+    color: #555555;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 28px;
+
+}
+
+/* Setup main content ID */
+#setup_main_content
+{
+
+    float: none;
+    clear: none;
+    box-shadow: 0.0em 0.0em 2.0em #252525;
+    text-shadow: 0.07em 0.07em 0.07em #D8D8D8;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+    width: 600px;
+    height: 400px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+
+}
+
+/* Setup content header ID */
+#setup_content_header
+{
+
+    color: #FFFFFF;
+    background-color: #AFA280;
+    text-shadow: 0.05em 0.05em 0.05em #7A766C;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 4px;
+
+}
+
+/* Setup header text ID */
+#setup_header_text
+{
+
+    margin: auto;
+    width: 215px;
+
+}
+
+/* Setup dynamic area ID */
+#setup_dynamic_area
+{
+
+    background-color: #FFFFFF;
+    height: 368px;
+    border-radius: 8px;
+    margin-top: 4px;
+
+}
+
+/* Setup dynamic content ID */
+#setup_dynamic_content
+{
+
+    font-size: smaller;
+    text-align: justify;
+    height: auto;
+    padding: 4px;
+
+}
+
+/* Setup options container ID */
+#setup_options_container
+{
+
+    height: 250px;
+
+}
+
+/* Setup links div ID */
+#setup_links_div
+{
+
+    float: right;
+    clear: both;
+
+}
+
+/* Setup links div Anchor [Hover] */
+#setup_links_div a:hover
+{
+
+    text-decoration: none;
+
+}
+
+/* Setup labels div ID */
+#setup_labels
+{
+
+    float: left;
+    clear: left;
+    width: 130px;
+
+}
+
+/* Setup inputs div ID */
+#setup_inputs
+{
+
+    float: left;
+    clear: right;
+    width: 180px;
+
+}
+
+.setup_label
+{
+
+    float: left;
+    clear: right;
+    margin-bottom: 10px;
+
+}
+
+.star
+{
+
+    float: left;
+    clear: left;
+    color: red;
+    margin-right: 5px;
+
+}
+
+#footer
+{
+
+    margin: 0 auto;
+    padding: 5px 10px;
+
+}
+
+#footer p
+{
+
+    font-size: 12px;
+
+}
+
+
+
+/* ---------- End ---------- */

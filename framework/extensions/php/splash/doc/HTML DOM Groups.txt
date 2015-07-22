@@ -1,0 +1,197 @@
+
+STANDARD ATTRIBUTES (All Tags)
+------------------------------
+id
+class
+style
+title
+dir
+lang/xml:lang
+accesskey
+tabindex
+------------------------------
+
+STANDARD MOUSE EVENTS (All Tags)
+--------------------------------
+onclick
+ondblclick
+onmousedown
+onmousemove
+onmouseout
+onmouseover
+onmouseup
+--------------------------------
+
+STANDARD KEY EVENTS (All Tags)
+------------------------------
+onkeydown
+onkeypress
+onkeyup
+------------------------------
+
+
+
+OBJECTS
+-------------------------------
+
+TAG: <a> (Link)
+---------
+
+EXTRA ATTRIBUTES
+---------
+href
+name
+target
+disabled
+
+EXTRA EVENTS
+------
+onblur
+onfocus
+------------
+
+
+
+TAG: <div>
+----------
+
+EXTRA ATTRIBUTES
+---------
+
+EXTRA EVENTS
+------
+
+------------
+
+
+
+TAG: <fieldset>
+---------------
+
+EXTRA ATTRIBUTES
+---------
+legend (Inner)
+
+EXTRA EVENTS
+------
+
+------------
+
+
+
+TAG: <img>
+--------------
+
+EXTRA ATTRIBUTES
+---------
+alt
+src
+width
+height
+
+EXTRA EVENTS
+------
+
+------------
+
+
+
+TAG: <input>
+--------------
+
+EXTRA ATTRIBUTES
+---------
+accept
+alt
+checked
+disabled
+maxlength
+name
+readonly
+size
+src
+type
+value
+
+EVENTS
+------
+onblur
+onchange
+onfocus
+onselect
+------------
+
+
+
+TAG: <label>
+--------------
+
+EXTRA ATTRIBUTES
+---------
+for
+
+EXTRA EVENTS
+------
+onblur
+onfocus
+------------
+
+
+
+TAG: <select>
+--------------
+
+EXTRA ATTRIBUTES
+---------
+disabled
+multiple
+name
+size
+
+EXTRA EVENTS
+------
+onblur
+onchange
+onfocus
+------------
+
+
+
+TAG: <table>
+--------------
+
+EXTRA ATTRIBUTES
+---------
+border
+cellpadding
+cellspacing
+frame
+rules
+summary
+width
+
+EXTRA EVENTS
+------
+onfocus
+------------
+
+
+
+TAG: <textarea>
+--------------
+
+EXTRA ATTRIBUTES
+---------
+cols
+rows
+disabled
+name
+readonly
+
+EXTRA EVENTS
+------
+onblur
+onchange
+onfocus
+onselect
+------------
